@@ -14,11 +14,7 @@ public class Person {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Person(Integer id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
+	
 
 	// Getters and setters
 
