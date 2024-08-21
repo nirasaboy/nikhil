@@ -1,0 +1,9 @@
+applications:
+  - name: Batch-Processing_in_cloudy
+    memory: 1G
+    buildpacks:
+      - java_buildpack
+    path: target/batch-processing-0.0.1-SNAPSHOT.jar
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
+
